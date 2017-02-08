@@ -1,0 +1,80 @@
+body{
+    background: url("/css/img/back.jpg") repeat;
+}
+
+.gray, p{
+    color: #B0B0B0;
+}
+
+strong{
+    color: #666666;
+}
+
+.navbar {
+    margin-top: 30px;
+    background: #FFFFFF;
+    border: none;
+}
+
+    .navbar a {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .navbar li:hover {
+        display: block;
+        background: #000000;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
+        color: #FFFFFF;
+    }
+
+    .navbar-right, h3 > a.label{
+        background: #2295A1;
+    }
+
+    .navbar-default  .navbar-right > li > a, .navbar-right > li > a, .btn-link{
+        color: #FFFFFF;
+        background: #2295A1;
+    }
+
+    .navbar-default  .navbar-right > li > a:hover, a.label:hover, .navbar-right > li > a:hover, a.label:hover, .btn-link:hover{
+        color: #FFFFFF;
+        background: #2295A1;
+        text-decoration: underline;
+    }
+
+.breadcrumb{
+    background: none;
+}
+
+    .breadcrumb > li + li:before {
+        color: #ccc;
+        content: "> ";
+        padding: 0 5px;
+    }
+
+.linklist{
+    list-style: none;
+}
+
+    .linklist > li > a{
+        color: #8D8D91;
+        text-decoration: none;
+    }
+
+    .linklist > li > a:hover {
+        text-decoration: underline;
+    }
+.container .jumbotron, .description{
+    padding: 12px;
+}
+
+.paddin-left{
+    padding-left: 20px;
+}
+
+.border-top{
+    background: url("/css/img/border-top.jpg") no-repeat top #FFFFFF;
+}
