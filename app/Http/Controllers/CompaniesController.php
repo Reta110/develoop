@@ -106,6 +106,7 @@ class CompaniesController extends Controller
             $data = $request->except('password');
         } else {
             $data = $request->all();
+            $data['password'] = bcrypt($data['password']);
         }
 
         Company::findOrFail($id)->update($data);
